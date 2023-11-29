@@ -1,44 +1,29 @@
 {
-  "name": "iproject",
-  "version": "0.0.0",
+  "name": "theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "serve:ssr:iproject": "node dist/iproject/server/server.mjs"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "private": true,
-  "dependencies": {
-    "@angular/animations": "^17.0.0",
-    "@angular/common": "^17.0.0",
-    "@angular/compiler": "^17.0.0",
-    "@angular/core": "^17.0.0",
-    "@angular/forms": "^17.0.0",
-    "@angular/platform-browser": "^17.0.0",
-    "@angular/platform-browser-dynamic": "^17.0.0",
-    "@angular/platform-server": "^17.0.0",
-    "@angular/router": "^17.0.0",
-    "@angular/ssr": "^17.0.3",
-    "express": "^4.18.2",
-    "rxjs": "~7.8.0",
-    "tslib": "^2.3.0",
-    "zone.js": "~0.14.2"
-  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "@angular-devkit/build-angular": "^17.0.3",
-    "@angular/cli": "^17.0.3",
-    "@angular/compiler-cli": "^17.0.0",
-    "@types/express": "^4.17.17",
-    "@types/jasmine": "~5.1.0",
-    "@types/node": "^18.18.0",
-    "jasmine-core": "~5.1.0",
-    "karma": "~6.4.0",
-    "karma-chrome-launcher": "~3.2.0",
-    "karma-coverage": "~2.2.0",
-    "karma-jasmine": "~5.1.0",
-    "karma-jasmine-html-reporter": "~2.1.0",
-    "typescript": "~5.2.2"
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-watch": "^5.0.1"
+  },
+  "dependencies": {
+    "bootstrap-sass": "^3.4.1",
+    "check": "^1.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-livereload": "^4.0.1",
+    "gulp-livereload-2": "^3.8.1",
+    "livereload": "^0.7.0",
+    "node-sass": "^4.11.0",
+    "npm": "^6.5.0"
   }
 }
